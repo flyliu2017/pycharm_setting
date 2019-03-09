@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Directory '... [mask_comments]'" />
-    <option name="defaultScopeName" value="Directory '... [mask_comments]'" />
-    <option name="SEARCH_SCOPE" value="Directory '... [mask_comments]'" />
+    <option name="customScope" value="File '.../opennmt/bin/main.py [eigen-opennmt]'" />
+    <option name="defaultScopeName" value="File '.../opennmt/bin/main.py [eigen-opennmt]'" />
+    <option name="SEARCH_SCOPE" value="File '.../opennmt/bin/main.py [eigen-opennmt]'" />
   </component>
 </application>
