@@ -1,0 +1,16 @@
+<templateSet group="Python">
+  <template name="openr" value="with open($PATH$, 'r', encoding='utf8') as f:&#10;    $LIST$ = f.readlines()" toReformat="false" toShortenFQNames="true">
+    <variable name="PATH" expression="fileName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="LIST" expression="pyIterableVariable()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="openw" value="with open($PATH$, 'w', encoding='utf8') as f:&#10;    f.writelines($LIST$)" toReformat="false" toShortenFQNames="true">
+    <variable name="PATH" expression="fileName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="LIST" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+</templateSet>
