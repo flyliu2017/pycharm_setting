@@ -26,6 +26,13 @@
     <keyboard-shortcut first-keystroke="ctrl page_up" />
   </action>
   <action id="Print" />
+  <action id="PublishGroup.SyncLocalVsRemote">
+    <keyboard-shortcut first-keystroke="shift ctrl alt z" />
+  </action>
+  <action id="PublishGroup.Upload">
+    <keyboard-shortcut first-keystroke="shift ctrl alt x" />
+  </action>
+  <action id="PublishGroup.UploadTo" />
   <action id="TodoViewGroupByShowPackages" />
   <action id="ToggleCompletionHintsAction">
     <keyboard-shortcut first-keystroke="ctrl p" />
