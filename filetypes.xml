@@ -4,6 +4,7 @@
     <extensionMap>
       <mapping pattern="md" type="Markdown" />
       <mapping ext="map" type="PLAIN_TEXT" />
+      <mapping ext="conf" type="PLAIN_TEXT" />
       <mapping ext="zst" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
