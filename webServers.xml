@@ -1,0 +1,22 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="003919fb-5bda-49fb-ae76-80806e510287" name="hpc1" url="http://192.168.3.11">
+        <fileTransfer host="192.168.3.11" port="22" rootFolder="/data/share/liuchang/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="63bc1b88-7f5a-4ea1-95e0-7f40918ebfce" name="hpc2" url="http://192.168.3.12">
+        <fileTransfer host="192.168.3.12" port="22" rootFolder="/data/share/liuchang/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
