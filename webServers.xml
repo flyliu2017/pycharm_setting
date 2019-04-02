@@ -17,6 +17,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="7688bb5d-8ad9-466b-bb5b-0327b6134bed" name="hpc2-berkeley" url="http://192.168.3.12">
+        <fileTransfer host="192.168.3.12" port="22" rootFolder="/data/share/liuchang/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
