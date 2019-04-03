@@ -13,7 +13,12 @@
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="ptime" value="print(time.strftime(&quot;%H:%M:%S&quot;))" description="print time" toReformat="false" toShortenFQNames="true">
+  <template name="ptime" value="print(time.strftime(&quot;%y-%m-%d_%H:%M:%S&quot;))" description="print time" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="stime" value="time.strftime(&quot;%y-%m-%d_%H:%M:%S&quot;)" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Python" value="true" />
     </context>
